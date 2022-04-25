@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-contains",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Test if an array-like value contains a search value.",
   "license": "Apache-2.0",
   "author": {
