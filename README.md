@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.contains;
+})();
 })();
 </script>
 ```
@@ -154,6 +156,7 @@ var v = contains( 'hello', 'e', 2.5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = contains( 'last man standing', 'stand' );
 // returns true
@@ -173,6 +176,7 @@ bool = contains( 'javaScript', 'js' );
 bool = contains( 'Hidden Treasures', '' );
 // returns true
 
+})();
 })();
 </script>
 </body>
