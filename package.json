@@ -41,7 +41,7 @@
     "@stdlib/assert-is-integer": "^0.0.8",
     "@stdlib/assert-is-nan": "^0.0.8",
     "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
