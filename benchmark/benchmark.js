@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var randu = require( '@stdlib/random-base-randu' );
 var fromCodePoint = require( '@stdlib/string-from-code-point' );
 var pkg = require( './../package.json' ).name;
