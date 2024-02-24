@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@esm/index.mjs';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.2.1-esm/index.mjs';
 ```
 
 #### contains( val, searchValue\[, position] )
@@ -140,7 +140,7 @@ var v = contains( 'hello', 'e', 2.5 );
 <body>
 <script type="module">
 
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@esm/index.mjs';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.2.1-esm/index.mjs';
 
 var bool = contains( 'last man standing', 'stand' );
 // returns true
