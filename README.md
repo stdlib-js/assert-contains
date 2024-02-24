@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-contains/tags). For example,
+
+```javascript
 import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.2.1-esm/index.mjs';
 ```
 
@@ -140,7 +145,7 @@ var v = contains( 'hello', 'e', 2.5 );
 <body>
 <script type="module">
 
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.2.1-esm/index.mjs';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@esm/index.mjs';
 
 var bool = contains( 'last man standing', 'stand' );
 // returns true
