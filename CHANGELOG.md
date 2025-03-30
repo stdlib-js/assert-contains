@@ -2,6 +2,110 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-30)
+
+<section class="features">
+
+### Features
+
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - distinguish between signed zeros
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058): distinguish signed zeros
+
+    -   To migrate, users should normalize signed zeros before invoking
+        this function. Otherwise, users should use a different algorithm
+        which uses strict equality to determine \"sameness\" (e.g., a package
+        such as `@stdlib/array-base/includes`).
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: passed
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: passed
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: passed
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - **feat:** distinguish between signed zeros _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)

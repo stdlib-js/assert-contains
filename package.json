@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
-    "@stdlib/assert-is-nan": "^0.2.2",
+    "@stdlib/assert-is-same-value": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.4.3",

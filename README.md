@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# Contains
+# contains
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -69,16 +69,23 @@ To view installation and usage instructions specific to each branch build, be su
 var contains = require( '@stdlib/assert-contains' );
 ```
 
-#### contains( val, searchValue\[, position] )
+#### contains( value, searchValue\[, position] )
 
-Tests if `val` contains a search value. When `val` is a `string`, the function checks whether the characters of a search string are found in the input string.
+Tests if `value` contains a search value.
+
+```javascript
+var v = contains( [ 1, 2, 3 ], 2 );
+// returns true
+```
+
+When `value` is a string, the function checks whether the characters of a search string are found in the input string.
 
 ```javascript
 var v = contains( 'Hello World', 'World' );
 // returns true
 ```
 
-When `val` is an `array-like` object, but not a `string`, the function checks whether the input value contains an element strictly equal to the specified search value.
+When `value` is an array-like object, but not a string, the function checks whether the input value contains an element which is the [same value][@stdlib/assert/is-same-value] as the specified search value.
 
 ```javascript
 var arr = [ null, NaN, 2, 'abc', {} ];
@@ -110,7 +117,7 @@ v = contains( [ true, NaN, false ], true, 1 );
 // returns false
 ```
 
-If not provided an `array-like` object, the function throws an error.
+If not provided an array-like object, the function throws an error.
 
 <!-- run throws: true -->
 
@@ -138,8 +145,8 @@ var v = contains( 'hello', 'e', 2.5 );
 
 ## Notes
 
--   For `strings`, the function is modeled after [String.prototype.includes][mdn-includes], part of the ECMAScript 6 specification. This function is different from a call to `String.prototype.includes.call` insofar as type-checking is performed for all arguments.
--   The function does **not** distinguish between positive and negative zero.
+-   For strings, the function is modeled after [String.prototype.includes][mdn-includes], part of the ECMAScript 6 specification. This function is different from a call to `String.prototype.includes.call` insofar as type-checking is performed for all arguments.
+-   The function **does** distinguish between positive and negative zero (see [`@stdlib/assert-is-same-value`][@stdlib/assert/is-same-value].
 -   If `position < 0`, the search is performed for the entire input array or string.
 
 </section>
@@ -212,7 +219,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -259,6 +266,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-contains/main/LICENSE
 
 [mdn-includes]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
 
 </section>
 
