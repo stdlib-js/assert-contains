@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-30)
+## Unreleased (2025-03-31)
 
 <section class="features">
 
 ### Features
 
+-   [`7ff916d`](https://github.com/stdlib-js/stdlib/commit/7ff916d9ab887aea71d5b3e525d60a0922440ded) - add accessor protocol support
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - distinguish between signed zeros
 
 </section>
@@ -82,6 +83,7 @@
 
 <details>
 
+-   [`7ff916d`](https://github.com/stdlib-js/stdlib/commit/7ff916d9ab887aea71d5b3e525d60a0922440ded) - **feat:** add accessor protocol support _(by Athan Reines)_
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - **feat:** distinguish between signed zeros _(by Athan Reines)_
 
 </details>

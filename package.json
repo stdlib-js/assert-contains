@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-index-of-same-value": "github:stdlib-js/array-base-index-of-same-value#main",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/assert-is-integer": "^0.2.2",
-    "@stdlib/assert-is-same-value": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.4.3",
