@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-06-25)
 
 <section class="features">
 
@@ -38,6 +38,7 @@
 
 <details>
 
+-   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`7ff916d`](https://github.com/stdlib-js/stdlib/commit/7ff916d9ab887aea71d5b3e525d60a0922440ded) - **feat:** add accessor protocol support _(by Athan Reines)_
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - **feat:** distinguish between signed zeros _(by Athan Reines)_
 
@@ -51,9 +52,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
