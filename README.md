@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@deno/mod.js';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.3.1-deno/mod.js';
 ```
 
 #### contains( value, searchValue\[, position] )
@@ -142,7 +142,7 @@ var v = contains( 'hello', 'e', 2.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@deno/mod.js';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.3.1-deno/mod.js';
 
 var bool = contains( 'last man standing', 'stand' );
 // returns true
