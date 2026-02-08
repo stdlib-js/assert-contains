@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-contains/tags). For example,
+
+```javascript
 import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.3.1-deno/mod.js';
 ```
 
@@ -142,7 +147,7 @@ var v = contains( 'hello', 'e', 2.5 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@v0.3.1-deno/mod.js';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-contains@deno/mod.js';
 
 var bool = contains( 'last man standing', 'stand' );
 // returns true
